@@ -1,6 +1,6 @@
 # Project Overview
 
-This project creates a web application using Streamlit to find similarities in non-relational postgreSQL database. The similarities are determined using MinHash and LSH (Locality-Sensitive Hashing) techniques. This app allows users to connect to a database, adjust shingle length and matching thresholds, and compute similarities between tables shown on a heat map.
+This project creates a web application using Streamlit to find similarities in a non-relational postgreSQL database. The similarities are determined using MinHash and LSH (Locality-Sensitive Hashing) techniques. This app allows users to connect to a database, adjust shingle length and matching thresholds, and compute similarities between columns in tables shown on a heat map.
 
 # How It Works
 1. Connect to a PostgreSQL database:
