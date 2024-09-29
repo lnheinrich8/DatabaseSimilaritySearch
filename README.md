@@ -16,7 +16,20 @@ This project creates a web application using Streamlit to find similarities in n
     - A heatmap visualization shows the amount of similarity between columns, allowing users to easily identify where similar data exists.
 
 # How to Run
-1. Install required libraries
-    '''console
-   pip install psycopg2 pandas numpy tqdm datasketch Levenshtein streamlit
-   '''
+1. Install Required Libraries:
+    > pip install psycopg2 pandas numpy tqdm datasketch Levenshtein streamlit
+2. Run the Application:
+    > streamlit run app.py
+3. Input Database Credentials:
+    - Enter the host, database, port, username, and password to connect to your PostgreSQL database.
+4. Adjust Parameters:
+    - Input the desired shingle length and matching threshold to fine-tune the similarity analysis.
+5. View Results:
+    - Once connected and parameters are set, a heatmap will be generated to visualize the similarities between different columns in the tables.
+
+
+
+
+
+
+
