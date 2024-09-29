@@ -15,3 +15,8 @@ This project creates a web application using Streamlit to find similarities in n
     - The similarity matches are computed for each column based on the LSH index.
     - A heatmap visualization shows the amount of similarity between columns, allowing users to easily identify where similar data exists.
 
+# How to Run
+1. Install required libraries
+    '''console
+   pip install psycopg2 pandas numpy tqdm datasketch Levenshtein streamlit
+   '''
